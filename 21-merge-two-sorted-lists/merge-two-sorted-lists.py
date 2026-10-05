@@ -20,4 +20,3 @@ class Solution:
         else:
             current.next=list2
         return dummy.next
-        
