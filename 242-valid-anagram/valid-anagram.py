@@ -11,4 +11,5 @@ class Solution:
             if values!=0:
                 return False
         return True
+
         
