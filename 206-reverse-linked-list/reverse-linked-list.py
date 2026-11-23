@@ -14,5 +14,3 @@ class Solution:
             current=nextNode
         return prev
         
-        
-        
