@@ -1,9 +1,9 @@
 class Solution:
-    def longestConsecutive(self, nums: List[int]) -> int:
+    def longestConsecutive(self, nums: list[int]) -> int:
         numset=set(nums)
         maxlength=0
         for num in numset:
-            if num-1 not in numset:
+            if num -1 not in numset:
                 current=num
                 length=1
                 while current+1 in numset:
